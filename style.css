@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @font-face {
-  font-family: magilio ;
-  src: url(./assets/fonts/Magilio.otf);
+  font-family: Gallient ;
+  src: url(./assets/fonts/Gallient.ttf);
 }
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Outfit", sans-serif;
+    font-family: "DM sans", sans-serif;
     
 }
 ::-moz-selection { /* Code for Firefox */
@@ -24,7 +24,10 @@
   background-color: white;
 }
 .heading{
-  font-family: magilio;
+  font-family: Gallient, sans-serif;
+}
+.heading-2{
+  font-family: Gallient, sans-serif;
 }
 
 .hero-section{
@@ -120,10 +123,93 @@ html{
 .carousel-dot.active {
   background-color: #717171;
 }
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+  font-size: 180px;
+}
+
+.heading-container img {
+  display: inline;
+  vertical-align: middle;
+  position: relative;
+  top: -100px;
+}
+
+.active::before {
+  content: "";
+  background-image: url(./assets/menu-icon.png);
+  background-size: 7px 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 15px;
+  width: 9px;
+  position: absolute;
+  top: 5px;
+  right: 90px;
+  margin: 0 10px 0 0;
+  /* opacity: 0; */
+}
+.active-about::before {
+  content: "";
+  background-image: url(./assets/menu-icon.png);
+  background-size: 7px 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 15px;
+  width: 9px;
+  position: absolute;
+  top: 60px;
+  right: 90px;
+  margin: 0 10px 0 0;
+  /* opacity: 0; */
+}
+.active-contact::before {
+  content: "";
+  background-image: url(./assets/menu-icon.png);
+  background-size: 7px 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 15px;
+  width: 9px;
+  position: absolute;
+  top: 4px;
+  right: 90px;
+  margin: 0 10px 0 0;
+  /* opacity: 0; */
+}
+.active-project::before {
+  content: "";
+  background-image: url(./assets/menu-icon.png);
+  background-size: 7px 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 15px;
+  width: 9px;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  margin: 0 10px 0 0;
+  /* opacity: 0; */
+}
+
+
+.hover-move-up:hover{
+  transform: translateY(-10px);
+}
+
 
 /* overlay */
 .project-container {
   position: relative;
+  background-image: url();
   overflow: hidden; /* Ensure content doesn't overflow */
 }
 .project-container::before {
@@ -172,6 +258,67 @@ html{
     transition: all 0.5s ease-in-out;
     text-transform: uppercase;
     font-size: 24px;
+  }
+
+  .active::before {
+    content: "";
+    background-image: url(./assets/menu-icon.png);
+    background-size: 7px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 15px;
+    width: 9px;
+    position: absolute;
+    top: 5px;
+    right: 90px;
+    margin: 0 10px 0 0;
+    display:none;
+  }
+  .active-contact::before {
+    content: "";
+    background-image: url(./assets/menu-icon.png);
+    background-size: 7px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 15px;
+    width: 9px;
+    position: absolute;
+    top: 5px;
+    right: 90px;
+    margin: 0 10px 0 0;
+    display:none;
+  }
+  .active-project::before {
+    content: "";
+    background-image: url(./assets/menu-icon.png);
+    background-size: 7px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 15px;
+    width: 9px;
+    position: absolute;
+    top: 5px;
+    right: 90px;
+    margin: 0 10px 0 0;
+    display:none;
+  }
+  .active-about::before {
+    content: "";
+    background-image: url(./assets/menu-icon.png);
+    background-size: 7px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 15px;
+    width: 9px;
+    position: absolute;
+    top: 5px;
+    right: 90px;
+    margin: 0 10px 0 0;
+    display:none;
   }
 
   .menu li {

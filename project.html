@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- own style sheet -->
+        <link rel="stylesheet" href="style.css">
+        <!-- tailwind -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- fav icon -->
+        <link rel="icon" type="image/png" href="./assets/top-home.png"> 
+        <!-- box icons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>Project &#8211; KAMAL JHA</title>
+    </head>
+<body>
+    <div class="main">
+        <!-- navbar -->
+        <nav class="bg-[#fafaf8] h-full py-8 z-20 px-8 sm:px-24 xl:px-12 ">
+            <ul class="navigation text-black flex flex-wrap justify-between items-start relative ">
+                <a class="logo" href="./index.html">
+                    <h1 class="text-xl font-extrabold tracking-tighter text-black">KAMAL JHA</h1>
+                </a>
+                <input type="checkbox" id="check" />
+
+                <span class="menu shadow-lg sm:shadow-none active-project  [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-100 [&>li>a]:ease-in-out [&>li>a]:font-extrabold [&>li>a]:text-lg">
+                    <li><a href="./index.html" class="text-black transition ease-in-out delay-150
+                            onclick="closeMenu()">HOME</a></li>
+                    <li><a href="./project.html" class="text-black transition ease-in-out delay-150 onclick="closeMenu()">PROJECT</a>
+                    </li>
+                    <li><a href="./about.html" class="text-black transition ease-in-out delay-150
+                            onclick="closeMenu()">ABOUT</a></li>
+                    <li><a href="./contact.html" class="text-black transition ease-in-out delay-150
+                            onclick="closeMenu()">CONATCT</a></li>
+
+                    <label for="check" class="close-menu"><i class='bx bx-x text-4xl text-[#363636]'></i></label>
+                </span>
+
+                <label for="check" class="open-menu"><i
+                        class='bx bx-menu-alt-right text-4xl text-[#363636]'></i></label>
+            </ul>
+            <div class="bg-[#fafaf8] text-[#363636] flex  mt-12  flex-col text-center items-center  py-6  px-8 sm:px-24 xl:px-6">
+              <h1 class=" heading text-5xl md:text-[100px] lg:text-[150px]  xl:text-[220px] leading-none">
+                SELECTED</h1>
+              <h1 class="heading xl:ml-72  mt-2 text-5xl md:text-[55px] lg:text-[90px] xl:text-[150px] leading-none">ALL PROJECT*</h1>
+            </div>
+            
+        </nav>
+
+        <section id="project" class="bg-[#fafaf8] text-[#363636] text-center h-full w-full  px-8 sm:px-24 xl:px-32 py-16">
+            <div class="flex flex-col justify-start items-start mt-24">
+                <a href="https://eat-curious.netlify.app/" target="_blank" class=" h-[250px] md:h-[550px] w-full  xl:w-[60%] bg-gray-200 bg-[url('./assets/project-01.jpeg')] bg-cover bg-center bg-no-repeat hover-move-up transition transform duration-300 ease-in-out"></a>
+                <div class="text-left xl:w-[60%]">
+                    <h3 class="text-xl md:text-4xl mt-5  leading-relaxed font-bold">
+                        Eat Curious — Animation Website
+                    </h3>
+                    <p class="text-md leading-relaxed text-[#363636] font-semibold">Creating the Animated Interface</p>
+                </div>
+            </div>
+            <div class="flex flex-col justify-start xl:items-end mt-24">
+                <a href="https://shop-hive-backend-1.onrender.com/" target="_blank" class="h-[250px] md:h-[550px] w-full  xl:w-[60%] bg-gray-200 bg-[url('./assets/project-04.jpeg')] bg-cover bg-center bg-no-repeat hover-move-up transition transform duration-300 ease-in-out"></a>
+                <div class="text-left xl:w-[60%]">
+                    <h3 class="text-xl md:text-4xl mt-5 leading-relaxed font-bold">
+                        ShopHive — Ecommerce Website
+                    </h3>
+                    <p class="text-md leading-relaxed text-[#363636] font-semibold">Building the Ecommerce Platform</p>
+                </div>
+            </div> 
+            <div class="flex flex-col justify-start items-start mt-24">
+                <a href="https://e-library-mu.vercel.app/" target="_blank" class="h-[250px] md:h-[550px] w-full  xl:w-[60%] bg-gray-200 bg-[url('./assets/project-02.jpeg')] bg-cover bg-center bg-no-repeat hover-move-up transition transform duration-300 ease-in-out"></a>
+                <div class="text-left xl:w-[60%]">
+                    <h3 class="text-xl md:text-4xl mt-5 leading-relaxed font-bold">
+                        E-Library — An Online Book Library
+                    </h3>
+                    <p class="text-md leading-relaxed text-[#363636] font-semibold">Interactive Digital Book Library</p>
+                </div>
+            </div>
+            <div class="flex flex-col justify-start xl:items-end mt-24">
+                <a href="https://writelyblog.vercel.app/" target="_blank" class="h-[250px] md:h-[550px] w-full  xl:w-[60%] bg-gray-200 bg-[url('./assets/project-03.jpeg')] bg-cover bg-center bg-no-repeat hover-move-up transition transform duration-300 ease-in-out"></a>
+                <div class=" text-left xl:w-[60%]">
+                    <h3 class="text-xl md:text-4xl mt-5 leading-relaxed font-bold">
+                        Writely — A Blogging App
+                    </h3>
+                    <p class="text-md leading-relaxed text-[#363636] font-semibold">User-Driven Blogging Platform</p>
+                </div>
+            </div>   
+        </section>
+
+
+        <div class="bg-[#fafaf8] px-12 h-[230px] md:h-[600px] flex flex-col md:flex-row justify-between items-center">
+            <div>
+                <h2 class="text-3xl md:text-6xl md:mb-8 font-extralight leading-normal text-[#363636]">NEXT PAGE</h2>
+                <h2 class=""><a class="heading text-6xl md:text-7xl  xl:text-9xl leading-normal text-[#363636]" href="./about.html">ABOUT*</a></h2>
+            </div>
+            
+            <div class="lg:flex justify-center items-center hidden   gap-0 ">
+                <h2 class="text-xl -rotate-90 font-bold  tracking-normal text-[#363636] absolute right-64 ">CONNECT WITH ME <span class="text-red-600">*</span></h2>
+                <ul class="pr-28">
+                    <li class="text-5xl leading-normal font-extralight text-left"> <a href="https://www.linkedin.com/in/kamal-jha-b55b78236/" target="_blank">LINKEDIN</a> </li>
+                    <li class="text-5xl leading-normal font-extralight text-left"> <a href="https://twitter.com/userkamaljha" target="_blank">TWITTER</a></li>
+                    <li class="text-5xl leading-normal font-extralight text-left">
+                      <a href="https://github.com/userkamaljha" target="_blank">GITHUB</a>  
+                     </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- foot bar -->
+       <div class="md:h-32 text-sm sm:tracking-wide h-full w-full bg-[#fafaf8] text-center flex flex-col md:flex-row py-8 md:py-0  justify-between px-12 items-center text-black border-double border-t-4 border-gray-200 text-xl leading-relaxed text-[#fafaf8]">
+        <h3 class="flex gap-4 py-4 md:py-0 "> 
+            <a href="https://www.linkedin.com/in/kamal-jha-b55b78236/" target="_blank" title="linkedin">LN.</a> 
+            <a href="https://github.com/userkamaljha" title="github" target="_blank">GH.</a> 
+            <a href="https://twitter.com/userkamaljha" target="_blank" title="twitter">TW.</a> 
+            <a href="mailto:kamaljha0707@gmail.com" title="Gmail">GM.</a> 
+         </h3>
+        <h3> Developed By Kamal Jha</h3>
+       <h3 class="flex  bg-[#fafaf8] w-full md:w-auto h-full  py-8 "> <span class="mr-1"><img src="./assets/top.png" alt=""></span> <a href="#">Back on Top</a></h3>
+       </div>
+    </div>
+    
+</body>
+
+    <!-- gsap cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- scrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- own script file -->
+    <script src="./main.js"></script>
+</html>

@@ -1,42 +1,25 @@
 function headingAnimation(){
-  gsap.from('.heading, .sub-heading ',{
+  gsap.from('.heading',{
       opacity:0,
-      y:50,
-      delay:0.3,
-      duration:1,
+      delay:0.5,
+      duration:0.8,
+      stagger:0.3,
+      ease: "power1.inOut",
   })
 }
 headingAnimation()
 
-function paraAnimation(){
-  gsap.from('#about div p',{
+function headingAnimation2(){
+  gsap.from('.heading-2',{
       opacity:0,
-      y:50,
-      delay:0.3,
+      delay:0.4,
       duration:1,
-      stagger:0.3,
       scrollTrigger:{
-        trigger:'#about',
-        marker:true,
+        trigger:'.heading-2',
       }
   })
 }
-paraAnimation()
-
-function quoteAnimation(){
-  gsap.from('.quote',{
-      opacity:0,
-      y:50,
-      delay:0.3,
-      duration:1,
-      stagger:0.3,
-      scrollTrigger:{
-        trigger:'.quote',
-        marker:true,
-      }
-  })
-}
-quoteAnimation()
+headingAnimation2()
 
 
 

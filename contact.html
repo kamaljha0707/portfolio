@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- own style sheet -->
+        <link rel="stylesheet" href="style.css">
+        <!-- tailwind -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- fav icon -->
+        <link rel="icon" type="image/png" href="./assets/top-home.png"> 
+        <!-- box icons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>Contact &#8211; KAMAL JHA </title>
+    </head>
+<body>
+    <div class="main">
+        <!-- navbar -->
+        <nav class="bg-[#fafaf8] h-full py-8 z-20 px-8 sm:px-24 xl:px-12 ">
+            <ul class="navigation text-black flex flex-wrap justify-between items-start relative ">
+                <a class="logo" href="./index.html">
+                    <h1 class="text-xl font-extrabold tracking-tighter text-black">KAMAL JHA</h1>
+                </a>
+                <input type="checkbox" id="check" />
+
+                <span class="menu shadow-lg sm:shadow-none   [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-100 [&>li>a]:ease-in-out [&>li>a]:font-extrabold  [&>li>a]:text-lg">
+                    <li><a href="./index.html" class="text-black  transition ease-in-out delay-150
+                            onclick="closeMenu()">HOME</a></li>
+                    <li><a href="./project.html" class="text-black   transition ease-in-out delay-150 onclick="closeMenu()">PROJECT</a>
+                    </li>
+                    <li><a href="./about.html" class="text-black   transition ease-in-out delay-150
+                            onclick="closeMenu()">ABOUT</a></li>
+                    <li><a href="#contact" class="text-black active-contact   transition ease-in-out delay-150
+                            onclick="closeMenu()">CONATCT</a></li>
+
+                    <label for="check" class="close-menu"><i class='bx bx-x text-4xl text-[#363636]'></i></label>
+                </span>
+
+                <label for="check" class="open-menu"><i
+                        class='bx bx-menu-alt-right text-4xl text-[#363636]'></i></label>
+            </ul>
+            <div class="bg-[#fafaf8] text-[#363636] flex  mt-12  flex-col text-center items-center  py-6  px-8 sm:px-24 xl:px-36">
+              <h1 class=" heading text-5xl md:text-[95px] lg:text-[120px]  xl:text-[220px] leading-snug">REACHED</h1>
+              <h1 class="heading xl:ml-44  mt-2 text-5xl md:text-[55px] lg:text-[80px] xl:text-[150px] leading-none">OUT TODAY*</h1>
+              <div class=" flex justify-start flex-col lg:flex-row  items-center lg:bg-[url('./assets/contact.png')] bg-no-repeat bg-right-top md:h-[660px] lg:h-[550px] h-[450px] w-full mt-16   ">
+                <p class=" text-2xl md:text-[44px] text-left text-[#363636] leading-relaxed tracking-wider font-extralight lg:w-[80%] lg:pr-44 ">IF YOU HAVE A GENERAL OR PROJECT ENQUIRY, PLEASE DROP ME AN <span class="font-semibold">EMAIL</span> OR <span class="font-semibold">  CONTACT * </span>
+                                     
+                    </p>
+                <img src="./assets/contact.png" class="lg:hidden" alt="">
+                       
+            </div>
+            </div>
+            
+        </nav>
+       <!-- footer -->
+       <footer class="h-full bg-[#fafaf8] w-full relative px-6 sm:px-24 xl:px-32 flex flex-col justify-center gap-6" id="contact">
+       <form action="" class="w-full my-14 md:my-28 lg:px-24">
+                <div class="flex flex-col md:flex-row w-full gap-12">
+                    <div class="inline w-full flex flex-col border-b border-black">
+                        <label for="name" class="text-[#363636]  text-lg font-bold ">NAME <span class="text-red-500">*</span></label>
+                        <input type="text" required name="name" id="" class="w-full bg-transparent pt-8 text-xl outline-none">
+                    </div>
+                   <div class="inline w-full flex flex-col border-b border-black">
+                    <label for="email" class="text-[#363636] text-lg font-bold w-full ">EMAIL <span class="text-red-500">*</span></label>
+                    <input type="email" required name="email" id="" class=" w-full bg-transparent pt-8 text-xl outline-none">
+                   </div>
+                </div>
+                
+                <div class="w-full mt-24 mb-32">
+                    <label for="message" class="text-[#363636]  text-lg font-bold  ">MESSAGE <span class="text-red-500">*</span></label>
+                    <textarea name="message" required class="w-full bg-transparent border-b border-black text-xl outline-none pt-8" id=""></textarea>
+                </div>
+                <div class="w-full justify-center flex items-center">
+                    <a href="mailto:kamaljha0707@gmail.com" class="text-center bg-[#fafaf8] border border-black border-b-4  text-black px-11 py-4 md:py-5 text-lg leading-relaxed hover:bg-black hover:text-[#fafaf8] duration-500 hover:curious-pointer ease-in-out">SEND MESSAGE</a>
+                </div>
+                
+            </form>
+
+    </footer>
+
+        <div class="bg-[#fafaf8] px-12  h-[230px] md:h-[600px] flex justify-between items-center">
+            <div>
+                <h2 class="text-3xl md:text-6xl md:mb-8 font-extralight leading-normal text-[#363636]">NEXT PAGE</h2>
+                <h2 class=""><a class="heading text-5xl md:text-7xl  xl:text-9xl  leading-normal text-[#363636]" href="./index.html">HOME*</a></h2>
+            </div>
+            <div class="lg:flex justify-center items-center gap-0 hidden ">
+                <h2 class="text-xl -rotate-90 font-bold  tracking-normal text-[#363636] absolute  right-64 ">CONNECT WITH ME <span class="text-red-600">*</span></h2>
+                <ul class="pr-28">
+                    <li class="text-5xl leading-normal font-extralight text-left"> <a href="https://www.linkedin.com/in/kamal-jha-b55b78236/" target="_blank">LINKEDIN</a> </li>
+                    <li class="text-5xl leading-normal font-extralight text-left"> <a href="https://twitter.com/userkamaljha" target="_blank">TWITTER</a></li>
+                    <li class="text-5xl leading-normal font-extralight text-left">
+                      <a href="https://github.com/userkamaljha" target="_blank">GITHUB</a>  
+                     </li>
+                </ul>
+            </div>
+        </div>
+
+           <!-- foot bar -->
+       <div class="md:h-32 text-sm sm:tracking-wide h-full w-full bg-[#fafaf8] text-center flex flex-col md:flex-row py-8 md:py-0  justify-between px-12 items-center text-black border-double border-t-4 border-gray-200 text-xl leading-relaxed text-[#fafaf8]">
+        <h3 class="flex gap-4 py-4 md:py-0 "> 
+            <a href="https://www.linkedin.com/in/kamal-jha-b55b78236/" target="_blank" title="linkedin">LN.</a> 
+            <a href="https://github.com/userkamaljha" title="github" target="_blank">GH.</a> 
+            <a href="https://twitter.com/userkamaljha" target="_blank" title="twitter">TW.</a> 
+            <a href="mailto:kamaljha0707@gmail.com" title="Gmail">GM.</a> 
+         </h3>
+        <h3> Developed By Kamal Jha</h3>
+       <h3 class="flex  bg-[#fafaf8] w-full md:w-auto h-full  py-8 "> <span class="mr-1"><img src="./assets/top.png" alt=""></span> <a href="#">Back on Top</a></h3>
+       </div>
+    </div>
+    
+</body>
+
+    <!-- gsap cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- scrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- own script file -->
+    <script src="./main.js"></script>
+</html>

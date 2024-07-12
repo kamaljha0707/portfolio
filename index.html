@@ -9,310 +9,162 @@
     <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- fav icon -->
-    <link rel="icon" type="image/png" href="./assets/Kml..png"> 
+    <link rel="icon" type="image/png" href="./assets/top-home.png"> 
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Portfolio - Kamal Jha - Frontend Developer </title>
-</head>
+    <title>Portfolio &#8211; KAMAL JHA </title>
+</head>		
 
 <body>
     <main class="main">
         <!-- navbar -->
-        <nav class="bg-[#ffffe] h-full py-6 z-20 px-8 sm:px-24 xl:px-32 ">
-            <ul class="navigation text-black flex flex-wrap justify-between items-center relative ">
+        <nav class="bg-[#fafaf8] h-full md:h-full w-full py-8 z-20 px-8 sm:px-24 xl:px-12 ">
+            <ul class="navigation text-black flex flex-wrap justify-between items-start relative ">
                 <a class="logo" href="#">
-                    <h1 class="text-3xl font-semibold text-orange-600"><span class="text-black">Kml</span>.</h1>
+                    <h1 class="text-xl font-extrabold tracking-tighter text-black">KAMAL JHA</h1>
                 </a>
                 <input type="checkbox" id="check" />
 
-                <span class="menu shadow-lg sm:shadow-none flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-100 [&>li>a]:ease-in-out [&>li>a]:font-medium [&>li>a]:text-lg">
-                    <li><a href="#" class="text-black hover:text-orange-600 transition ease-in-out delay-150
-                            onclick="closeMenu()">Home</a></li>
-                    <li><a href="#about" class="text-black hover:text-orange-600 transition ease-in-out delay-150 onclick="closeMenu()">About</a>
+                <span class="menu shadow-lg sm:shadow-none  flex flex-col justify-start items-start active   [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-100 [&>li>a]:ease-in-out [&>li>a]:font-extrabold  [&>li>a]:text-lg">
+                    <li class=""><a href="#" class="text-black  transition ease-in-out delay-150
+                            onclick="closeMenu()">HOME</a></li>
+                    <li><a href="./project.html" class="text-black transition ease-in-out delay-150 onclick="closeMenu()">PROJECT</a>
                     </li>
-                    <li><a href="#works" class="text-black hover:text-orange-600 transition ease-in-out delay-150
-                            onclick="closeMenu()">Works</a></li>
-                    <li><a href="#contact" class="text-black hover:text-orange-600 transition ease-in-out delay-150
-                            onclick="closeMenu()">Contact</a></li>
+                    <li><a href="./about.html" class="text-black  transition ease-in-out delay-150
+                            onclick="closeMenu()">ABOUT</a></li>
+                    <li><a href="./contact.html" class="text-black  transition ease-in-out delay-150
+                            onclick="closeMenu()">CONATCT</a></li>
 
-                    <label for="check" class="close-menu"><i class='bx bx-x text-4xl text-[#ea580c]'></i></label>
+                    <label for="check" class="close-menu"><i class='bx bx-x text-4xl text-[#363636]'></i></label>
                 </span>
 
                 <label for="check" class="open-menu"><i
-                        class='bx bx-menu-alt-right text-4xl text-[#ea580c]'></i></label>
+                        class='bx bx-menu-alt-right text-4xl text-[#363636]'></i></label>
             </ul>
-            <div class="flex flex-col  my-16 justify-center ">
-                <h1 class="heading text-7xl xl:text-9xl lg:tracking-wide  text-right">Hello </h1>
-                <h1 class="heading text-7xl xl:text-9xl lg:tracking-wide text-right ">I’m Kamal Jha</h1>
-                <h3 class="sub-heading text-[24px] xl:text-3xl  lg:w-2/4 md:tracking-wide text-left mt-8 mb-8" >I am a self-taught <span class="font-medium text-orange-600">front-end developer </span> who constantly seeks out innovation solutions <br> to everyone problems.</h3>
-                <a href="#contact" class="py-3 px-6 rounded-full text-lg xl:text-xl bg-orange-600 w-fit text-white shadow-sm hover:bg-[#ea5a0ce1] hover:shadow-md">Contact Now</a>
-                <h6 class="text-xl   text-right cursor-pointer"><a href="#about">Scroll   <i class='text-2xl  bx bx-down-arrow-alt bg-orange-600 rounded-full text-white py-2 px-2 hover:py-4 duration-200 opacity-95 ml-2'></i></a></h6>
+            <div class="bg-[#fafaf8] text-[#363636] flex  mt-12  flex-col text-center items-center  py-6  px-8 sm:px-24 xl:px-12">
+                <pre class="heading text-[38px] md:text-[95px] lg:text-[120px] xl:text-[180px] h-24 md:h-44  leading-none text-center  flex items-center justify-center">CREA <img src="./assets/top-home.png" class="md:-ml-4  md:-mr-4 mb-14 md:mb-20  xl:mb-32 h-24 md:h-32 lg:h-36 xl:h-56" alt=""> TIVE</pre>
+              <h1 class=" heading text-5xl md:text-[95px] lg:text-[120px] xl:text-[180px] leading-relaxed md:leading-none">FRONTEND <br> DEVELOPER</h1>
+              <h1 class="heading-2 mt-2 text-4xl md:text-[95px] lg:text-[100px] xl:text-[180px] leading-relaxed md:leading-none">FROM  INDIA*</span></h1>
             </div>
             
         </nav>
         
         <!-- about -->
-        <section id="about" class="bg-black h-full w-full  px-8 sm:px-24 xl:px-32 py-16">
-                    <h4 class="text-gray-300  text-left text-lg">About Me</h4>
-                    <div id="#" class="mt-4 lg:mt-0 w-full flex justify-center flex-col ">
-                        <span class="text-xl lg:pl-56 xl:pl-72  text-left  font-normal text-left text-gray-500">&lt;h1/&gt;</span>
-                         <p class="text-[#ffff] words-to-split text-[22px] sm:text-[26px] lg:text-[29px] sm:pb-10  lg:pl-56 lg:pr-58 xl:pl-72 xl:pr-96 leading-normal  text-left ">                 
-                         I'm a self-taught developer from India. Since 2020, I've been working to improve myself in the web development field,
-                        </p> 
-                        <br> 
-                        <p class="text-[#ffff] words-to-split  lg:pl-56 lg:pr-58 xl:pl-72 xl:pr-96 text-left leading-normal text-[22px] sm:text-[26px] lg:text-[29px]">
-                            <span class="text-[#B6BBC4]">
-                                balancing college commitments with personal projects. 
-                            </span>     
-                            I enjoy learning new technologies and tools, and I thrive on creating visually appealing projects.
-                        
-                       <span class="text-[#B6BBC4]">
-                        My motivation for developing this website is to share my learnings with the rest of the world.
-                        I'm passionate about frontend development and have a strong interest in backend development as well.
-                       </span> 
-                      <span class="text-xl font-normal text-gray-500">&lt;h1/&gt;</span>
-                      </p>
+        <section id="about" class="bg-[#fafaf8] h-full w-full  px-8 sm:px-24 xl:px-32 py-16">
+                    <div class="flex flex-col xl:flex-row justify-start  items-center xl:bg-[url('./assets/about.png')] bg-no-repeat bg-right-top   h-[550px]   ">
+                        <p class=" text-2xl md:text-3xl lg:text-[42px] text-[#363636] leading-normal lg:leading-relaxed tracking-wider font-extralight w-full xl:w-[57%] pr-6">IN THE <span class="font-semibold">WEB DEVELOPING</span> FROM OVER TWO YEARS I TURN <span class="font-semibold"> IDEAS INTO AMAZING </span>  PROJECTS THROUGH THE WORLD OF <span class="font-semibold">CREATIVE</span> AND  <span class="font-semibold">INTERACTIVE IDEAS & WEBSITES *  </span>
+                                             
+                            </p>
+                        <img src="./assets/about.png" class="xl:hidden" alt="">
+                               
                     </div>
-                           
      
                
 
         </section>
 
      <!-- featured works -->
-     <section id="works" class="bg-black h-full w-full  px-8 sm:px-24 xl:px-32 py-16">
-        <h4 class="text-gray-300  text-left text-lg">Featured Works</h4>
-        <div class="flex flex-col lg:flex-row sm:px-28 lg:px-6 xl:px-32 justify-start  lg:justify-end lg:items-start my-4 w-full gap-2 sm:gap-6">
-            <h4 class="text-[#ffff]  sm:text-xl ">01/04</h4>
-            <div class="project-container w-full h-60 sm:h-80 lg:w-[44%] flex justify-center items-center bg-[url('/assets/project-01.png')] bg-center bg-cover bg-no-repeat rounded-sm cursor-pointer bg-gray-600 hover:grayscale :grayscale-0 ease-in duration-150">
-                <div class="project-content">
-                    <a href="https://eat-curious.netlify.app/" target="_blank" class=" text-xl ">
-                  <h3 class="text-2xl font-semibold font-sans mb-2">Eat curious website</h3>
-                   <i class='bx bx-link-external'></i> <p class="inline hover:underline">View</p></a>
+     <section id="project" class="bg-[#fafaf8] text-[#363636] text-center h-full w-full  px-8 md:px-16 lg:px-24 xl:px-32 py-16">
+        <h2 class="heading text-5xl md:text-[100px] lg:text-[180px] xl:text-[225px] h-20 md:h-32 lg:h-52 xl:h-72 w-full tracking-normal">SELECTED <h2>
+            <div class="flex justify-center  gap-4 lg:gap-24 xl:gap-56 items-center w-full ">
+                <span class="heading text-3xl px-6 py-6 md:px-16 md:py-16 text-center  border border-gray-200 rounded-full md:ml-24 ">02</span>
+                <h2 class="heading text-5xl md:text-[100px] lg:text-[125px] xl:text-[135px] tracking-normal"> PROJECT*</h2>
+            </div>
+
+            <div class="flex flex-col justify-start items-start mt-24">
+                <a href="https://eat-curious.netlify.app/" target="_blank" class=" h-[250px] md:h-[550px] w-full lg:w-[90%] xl:w-[60%] bg-gray-200 bg-[url('./assets/project-01.jpeg')] bg-cover bg-center bg-no-repeat hover-move-up transition transform duration-300 ease-in-out"></a>
+                <div class="text-left xl:w-[60%]">
+                    <h3 class="text-xl md:text-4xl mt-5  leading-relaxed font-bold">
+                        Eat Curious — Animation Website
+                    </h3>
+                    <p class="text-md leading-relaxed text-[#363636] font-semibold">Creating the Animated Interface</p>
                 </div>
-              </div>
-        </div>
-        <div class="flex flex-col-reverse lg:flex-row sm:px-28 lg:px-6 xl:px-32 justify-start items-start my-4 w-full gap-2 sm:gap-6">
-            <div class="project-container w-full h-60 sm:h-80 lg:w-[44%] bg-gray-600 bg-[url('/assets/project-04.png')] bg-center bg-cover bg-no-repeat rounded-sm hover:grayscale :grayscale-0 cursor-pointer">
-                <div class="project-content">
-                    <h3 class="text-2xl font-semibold font-sans mb-2">Shop hive (Ecommerce)</h3>
-                    <a href="https://shop-hive-backend-1.onrender.com/" target="_blank" class=" text-xl "> <i class='bx bx-link-external'></i> <p class="inline hover:underline">View</p></a>
-                  </div>
             </div>
-            <h4 class="text-[#ffff] sm:text-xl ">02/04</h4>
-        </div>
-        <div class="flex flex-col lg:flex-row sm:px-28  lg:px-6 xl:px-32 justify-start  sm:justify-end sm:items-start mt-4 w-full gap-2 sm:gap-6">
-            <h4 class="text-[#ffff]  sm:text-xl ">03/04</h4>
-            <div class="project-container w-full h-60 sm:h-80  lg:w-[44%] hover:grayscale :grayscale-0 bg-[url('/assets/project-03.png')] bg-top bg-cover bg-no-repeat rounded-sm cursor-pointer bg-gray-600">
-                <div class="project-content">
-                    <h3 class="text-2xl font-semibold font-sans mb-2">Writely <br> (A blogging app)</h3>
-                    <a href="https://writelyblog.vercel.app/" target="_blank" class=" text-xl "> <i class='bx bx-link-external'></i> <p class="inline hover:underline">View</p></a>
-                  </div>
+            <div class="flex flex-col justify-start xl:items-end mt-24">
+                <a href="https://shop-hive-backend-1.onrender.com/" target="_blank" class="h-[250px] md:h-[550px] w-full lg:w-[90%] xl:w-[60%] bg-gray-200 bg-[url('./assets/project-04.jpeg')] bg-cover bg-center bg-no-repeat hover-move-up transition transform duration-300 ease-in-out"></a>
+                <div class="text-left xl:w-[60%]">
+                    <h3 class="text-xl md:text-4xl mt-5 leading-relaxed font-bold">
+                        ShopHive — Ecommerce Website
+                    </h3>
+                    <p class="text-md leading-relaxed text-[#363636] font-semibold">Building the Ecommerce Platform</p>
+                </div>
+            </div> 
+            <div class="flex flex-col justify-start items-start mt-24">
+                <a href="https://e-library-mu.vercel.app/" target="_blank" class="h-[250px] md:h-[550px] w-full lg:w-[90%] xl:w-[60%] bg-gray-200 bg-[url('./assets/project-02.jpeg')] bg-cover bg-center bg-no-repeat hover-move-up transition transform duration-300 ease-in-out"></a>
+                <div class="text-left xl:w-[60%]">
+                    <h3 class="text-xl md:text-4xl mt-5 leading-relaxed font-bold">
+                        E-Library — An Online Book Library
+                    </h3>
+                    <p class="text-md leading-relaxed text-[#363636] font-semibold">Interactive Digital Book Library</p>
+                </div>
             </div>
-        </div>
-        <div class="flex flex-col-reverse lg:flex-row sm:px-28 lg:px-6 xl:px-32 justify-start items-start my-4 w-full gap-2 sm:gap-6">
-            <div class="project-container w-full h-60 sm:h-80 lg:w-[44%] hover:grayscale :grayscale-0 bg-[url('/assets/project-02.png')] bg-center bg-cover bg-no-repeat rounded-sm cursor-pointer bg-gray-600">
-                <div class="project-content">
-                    <h3 class="text-2xl font-semibold font-sans mb-2">Elibrary</h3>
-                    <a href="https://e-library-mu.vercel.app/" target="_blank" class=" text-xl "> <i class='bx bx-link-external'></i> <p class="inline hover:underline">View</p></a>
-                  </div>
-            </div>
-            <h4 class="text-[#ffff]  sm:text-xl ">04/04</h4>
-        </div>
-        
-           
+            <div class="flex flex-col justify-start xl:items-end mt-24">
+                <a href="https://writelyblog.vercel.app/" target="_blank" class="h-[250px] md:h-[550px] w-full lg:w-[90%] xl:w-[60%] bg-gray-200 bg-[url('./assets/project-03.jpeg')] bg-cover bg-center bg-no-repeat hover-move-up transition transform duration-300 ease-in-out"></a>
+                <div class=" text-left xl:w-[60%]">
+                    <h3 class="text-xl md:text-4xl mt-5 leading-relaxed font-bold">
+                        Writely — A Blogging App
+                    </h3>
+                    <p class="text-md leading-relaxed text-[#363636] font-semibold">User-Driven Blogging Platform</p>
+                </div>
+            </div>  
     </section>
 
-    <!-- skills -->
-    <section id="skills" class="bg-black h-full w-full  px-6 sm:px-24  xl:px-32 py-16">
-        <h4 class="text-gray-300  text-left text-lg">My Skills</h4>
-        <div class="carousel-container w-full bg-black mt-20">
-            <div class="carousel-track">
-                <div class="carousel-slide gap-2 sm:gap-14 ">
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 hover:shadow-md p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-html5 text-[70px]' style='color:#ea5a0c'></i>
-                        <p class="text-white">HTML</p>
-                    </div>
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 hover:shadow-md p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-css3 text-[70px]' style='color:#264de4'></i>
-                        <p class="text-white">CSS</p>
-                    </div>
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 hover:shadow-md p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-javascript text-[70px]' style='color:#f0db4f'></i>
-                        <p class="text-white">JavaScript</p>
-                    </div>
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 hover:shadow-md p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-tailwind-css text-[70px]' style='color:#6d28d9'></i>
-                        <p class="text-white">Tailwind CSS</p>
-                    </div>
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 hover:shadow-md p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-bootstrap text-[70px]' style='color:#563d7c'></i>
-                        <p class="text-white">Bootstrap</p>
-                    </div>
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 hover:shadow-md p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-react text-[70px]' style='color:#61dafb'></i>
-                        <p class="text-white">React</p>
-                    </div>
-                </div>
-                <div class="carousel-slide gap-2 sm:gap-14">
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 hover:shadow-md p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-redux text-[70px]' style='color:#764abc'></i>
-                        <p class="text-white">Redux</p>
-                    </div>
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 hover:shadow-md p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-git text-[70px]' style='color:#ea5a0c'></i>
-                        <p class="text-white">Git</p>
-                    </div>
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 hover:shadow-md p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-github text-[70px]' style='color:#ffff'></i>
-                        <p class="text-white">Github</p>
-                    </div>
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-mongodb text-[70px]' style='color:#049024'></i>
-                        <p class="text-white">Mongodb</p>
-                    </div>
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 hover:shadow-md p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-visual-studio text-[70px]' style='color:#0078d7'></i>
-                        <p class="text-white">Vs Code</p>
-                    </div>
-                    <div class="rounded-md flex flex-col gap-3 justify-between hover:scale-105 hover:shadow-md p-4 w-28 sm:w-32 text-center">
-                        <i class='bx bxl-nodejs text-[70px]' style='color:#3c873a'></i>
-                        <p class="text-white">Node.js</p>
-                    </div>
-                </div>
+    <!-- Contact -->
+    <section id="works" class="bg-[#fafaf8] text-[#363636] text-center h-full w-full  px-8 lg:px-24 md:px-16  xl:px-52 pt-16 ">
+        <h2 class="heading text-5xl md:text-[100px] lg:text-[150px] xl:text-[225px] h-20 md:h-36 lg:h-44 xl:h-72 tracking-normal">GET INTO <h2>
+            <div class="flex justify-center gap-4 lg:gap-24 xl:gap-56 items-center w-full ">
+                <span class="heading text-3xl text-3xl px-6 py-6 md:px-16 md:py-16 text-center  border border-gray-200 rounded-full lg:ml-24 ">03</span>
+                <h2 class="heading text-4xl md:text-[100px] lg:text-[135px] tracking-normal"> TOUCH*</h2>
             </div>
-    
-            <div class="carousel-arrow carousel-arrow-left"><i class="fas fa-chevron-left"></i></div>
-            <div class="carousel-arrow carousel-arrow-right"><i class="fas fa-chevron-right"></i></div>
-        </div>
-    
-        <div class="carousel-dots bg-black pb-5"></div>
-
+            <div class=" flex justify-start flex-col lg:flex-row  items-center lg:bg-[url('./assets/contact.png')] bg-no-repeat bg-right-top md:h-[660px] h-[450px] w-full mt-16   ">
+                <p class=" text-2xl md:text-[44px] text-left text-[#363636] leading-relaxed tracking-wider font-extralight lg:w-[80%] lg:pr-44 ">IF YOU HAVE A GENERAL OR PROJECT ENQUIRY, PLEASE DROP ME AN <span class="font-semibold">EMAIL</span> OR <span class="font-semibold">  CONTACT * </span>
+                                     
+                    </p>
+                <img src="./assets/contact.png" class="lg:hidden" alt="">
+                       
+            </div>
     </section>
-  
-        <!--banner-->
-        <section class="bg-[#F0F0F0] text-center h-56  flex flex-col justify-center items-center">
-            <h2 class="font-light text-[22px] text-[#000000e9]">More details?</h2>
-            <a href="./assets/Kamal's Resume.pdf" download
-                class=" mt-5 h-[48px] w-[270px] text-[18px] flex items-center justify-center  text-center bg-[#444444cf] hover:bg-[#000000e9] text-[#ECF9E4] hover:text-[#ECF9E4]  rounded-3xl">Resume Download Here </a>
-        </section>
-
-                <!-- quote -->
-                <section class="h-[321px] bg-[#ffffe] w-full  px-6 sm:px-24 lg:px-32  ">
-                    <div class="quote flex justify-center items-center h-full">
-                       <h2 class=" text-center text-[24px] text-gray-700 capitalize font-semibold tracking-wider  lg:text-3xl "><span class="text-4xl"> “ </span> Your vision, my code – together, we innovate.<span class="text-4xl">” </span></h2>
-                    </div>
-               </section> 
-
-        
 
      <!-- footer -->
-        <footer class="h-96 sm:h-[450px] bg-black w-full relative px-6 sm:px-32 flex flex-col justify-center gap-6" id="contact">
-            <a href="#"> <i
-                    class='bx bx-up-arrow-alt text-3xl bg-gray-600 hover:text-[#F6F5F5] transition duration-200 trans text-gray-300 p-2 absolute top-10 cursor-pointer rounded-xl right-10'></i>
-            </a>
-            <h4 class="text-white text-lg mt-3 sm:text-xl">Want to start a project?</h4>
-            <div class=" flex flex-col sm:items-end  sm:flex-row gap-6 sm:gap-0   ">
-                <h2 class="text-white text-5xl lg:text-7xl xl:text-9xl ">Let's Talk</h2>
-               <a href="mailto:kamaljha0707@gmail.com" class="text-white bg-orange-600 py-2 px-4 rounded-3xl text-lg sm:py-3 sm:px-6 sm:ml-6 sm:mr-1 sm:rounded-full sm:text-xl  w-fit hover:bg-[#ea5a0ce1] hover:shadow-md ">Try out a filler   <a onmousedown="mouseclick.play()" href="mailto:kamaljha0707@gmail.com" class=" hidden sm:block text-white py-2 px-2 hover:px-6 duration-200  rounded-full hover:bg-[#ea5a0ce1] text-2xl bg-orange-600 w-fit"><svg
-                width="32"
-                height="28"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M15.0378 6.34317L13.6269 7.76069L16.8972 11.0157L3.29211 11.0293L3.29413 13.0293L16.8619 13.0157L13.6467 16.2459L15.0643 17.6568L20.7079 11.9868L15.0378 6.34317Z"
-                  fill="currentColor"
-                />
-              </svg></a></a>
-             
-            </div>
-            <div class="flex flex-col sm:flex-row gap-5 justify-between sm:items-center ">
-                <a class="logo" href="#">
-                    <h1 class=" font-semibold text-orange-600 text-3xl sm:text-4xl"><span class="text-white">Kml</span>.</h1>
-                </a>
-                <ul class="flex gap-5">
-                    <li class="text-white "><a class="hover:text-gray-200" href="mailto:kamaljha0707@gmail.com">Email</a></li>
-                    <li class="text-white "><a class="hover:text-gray-200" target="_blank" href="https://twitter.com/userkamaljha">Twitter</a></li> 
-                    <li class="text-white "><a class="hover:text-gray-200" target="_blank" href="https://www.linkedin.com/in/kamal-jha-b55b78236/">LinkedIn</a></li>
-                    <li class="text-white"><a class="hover:text-gray-200" target="_blank" href="https://github.com/userkamaljha">Github</a></li> 
-                </ul>
-            </div>
+        <footer class="h-full bg-[#fafaf8] w-full relative px-6 sm:px-24 xl:px-32 flex flex-col justify-center gap-6" id="contact">
+            <form action="" class="w-full my-14 md:my-28 lg:px-24">
+                <div class="flex flex-col md:flex-row w-full gap-12">
+                    <div class="inline w-full flex flex-col border-b border-black">
+                        <label for="name" class="text-[#363636]  text-lg font-bold ">NAME <span class="text-red-500">*</span></label>
+                        <input type="text" required autocomplete="off name="name" id="" class="w-full bg-transparent pt-8 text-xl outline-none">
+                    </div>
+                   <div class="inline w-full flex flex-col border-b border-black">
+                    <label for="email" class="text-[#363636] text-lg font-bold w-full ">EMAIL <span class="text-red-500">*</span></label>
+                    <input type="email" required autocomplete="off name="email" id="" class=" w-full bg-transparent pt-8 text-xl outline-none">
+                   </div>
+                </div>
+                
+                <div class="w-full mt-24 mb-32">
+                    <label for="message" class="text-[#363636]  text-lg font-bold  ">MESSAGE <span class="text-red-500">*</span></label>
+                    <textarea name="message" required class="w-full bg-transparent border-b border-black text-xl outline-none pt-8" id=""></textarea>
+                </div>
+                <div class="w-full justify-center flex items-center">
+                    <a href="mailto:kamaljha0707@gmail.com" class="text-center bg-[#fafaf8] border border-black border-b-4  text-black px-11 py-4 md:py-5 text-lg leading-relaxed hover:bg-black hover:text-[#fafaf8] duration-500 hover:curious-pointer ease-in-out">SEND MESSAGE</a>
+                </div>
+                
+            </form>
 
         </footer>
+
        <!-- foot bar -->
-        <div class="h-[50px] text-sm sm:tracking-wide  w-full bg-zinc-950 text-center flex justify-center items-center text-gray-500 ">Developed by Kamal Jha. <span class="hidden sm:block pl-1"> Creativity meets code.</span></div>
+       <div class="md:h-32 text-sm sm:tracking-wide h-full w-full bg-[#fafaf8] text-center flex flex-col md:flex-row py-8 md:py-0  justify-between px-12 items-center text-black border-double border-t-4 border-gray-200 text-xl leading-relaxed text-[#fafaf8]">
+            <h3 class="flex gap-4 py-4 md:py-0 "> 
+            <a href="https://www.linkedin.com/in/kamal-jha-b55b78236/" target="_blank" title="linkedin">LN.</a> 
+            <a href="https://github.com/userkamaljha" title="github" target="_blank">GH.</a> 
+            <a href="https://twitter.com/userkamaljha" target="_blank" title="twitter">TW.</a> 
+            <a href="mailto:kamaljha0707@gmail.com" title="Gmail">GM.</a> 
+         </h3>
+            <h3> Developed By Kamal Jha</h3>
+           <h3 class="flex  bg-[#fafaf8] w-full md:w-auto h-full  py-8 "> <span class="mr-1"><img src="./assets/top.png" alt=""></span> <a href="#">Back on Top</a></h3>
+        </div>
+    </div>
 
     </main>
-
-    <script>
-        var mouseclick = new Audio();
-        mouseclick.src = "https://uploads.sitepoint.com/wp-content/uploads/2023/06/1687569402mixkit-fast-double-click-on-mouse-275.wav";
-
-        document.addEventListener('DOMContentLoaded', () => {
-            const track = document.querySelector('.carousel-track');
-            const slides = Array.from(track.children);
-            const nextButton = document.querySelector('.carousel-arrow-right');
-            const prevButton = document.querySelector('.carousel-arrow-left');
-            const dotsContainer = document.querySelector('.carousel-dots');
-
-            let currentIndex = 0;
-
-            // Create dots
-            slides.forEach((_, i) => {
-                const dot = document.createElement('div');
-                dot.classList.add('carousel-dot');
-                if (i === 0) dot.classList.add('active');
-                dot.addEventListener('click', () => {
-                    currentIndex = i;
-                    updateCarousel();
-                });
-                dotsContainer.appendChild(dot);
-            });
-
-            const dots = Array.from(dotsContainer.children);
-
-            const updateCarousel = () => {
-                const slideWidth = slides[0].getBoundingClientRect().width;
-                track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-                dots.forEach(dot => dot.classList.remove('active'));
-                dots[currentIndex].classList.add('active');
-            }
-
-            nextButton.addEventListener('click', () => {
-                if (currentIndex < slides.length - 1) {
-                    currentIndex++;
-                } else {
-                    currentIndex = 0;
-                }
-                updateCarousel();
-            });
-
-            prevButton.addEventListener('click', () => {
-                if (currentIndex > 0) {
-                    currentIndex--;
-                } else {
-                    currentIndex = slides.length - 1;
-                }
-                updateCarousel();
-            });
-
-            const autoMove = () => {
-                if (currentIndex < slides.length - 1) {
-                    currentIndex++;
-                } else {
-                    currentIndex = 0;
-                }
-                updateCarousel();
-            }
-
-            // Auto move every 3 seconds
-            setInterval(autoMove, 3000);
-
-            updateCarousel();
-        });
-    </script>
     
 
     <!-- gsap cdn -->

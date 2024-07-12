@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- own style sheet -->
+        <link rel="stylesheet" href="style.css">
+        <!-- tailwind -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- fav icon -->
+        <link rel="icon" type="image/png" href="./assets/top-home.png"> 
+
+        <!-- box icons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>About &#8211; KAMAL JHA </title>
+    </head>
+<body>
+    <div class="main">
+        <!-- navbar -->
+        <nav class="bg-[#fafaf8] h-full py-8 z-20 px-8 sm:px-24 xl:px-12 ">
+            <ul class="navigation text-black flex flex-wrap justify-between items-start relative ">
+                <a class="logo" href="./index.html">
+                    <h1 class="text-xl font-extrabold tracking-tighter text-black">KAMAL JHA</h1>
+                </a>
+                <input type="checkbox" id="check" />
+
+                <span class="menu shadow-lg sm:shadow-none active-about   [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-100 [&>li>a]:ease-in-out [&>li>a]:font-extrabold  [&>li>a]:text-lg">
+                    <li><a href="./index.html" class="text-black transition ease-in-out delay-150
+                            onclick="closeMenu()">HOME</a></li>
+                    <li><a href="./project.html" class="text-black transition ease-in-out delay-150 onclick="closeMenu()">PROJECT</a>
+                    </li>
+                    <li><a href="./about.html" class="text-black transition ease-in-out delay-150
+                            onclick="closeMenu()">ABOUT</a></li>
+                    <li><a href="./contact.html" class="text-black transition ease-in-out delay-150
+                            onclick="closeMenu()">CONATCT</a></li>
+
+                    <label for="check" class="close-menu"><i class='bx bx-x text-4xl text-[#363636]'></i></label>
+                </span>
+
+                <label for="check" class="open-menu"><i
+                        class='bx bx-menu-alt-right text-4xl text-[#363636]'></i></label>
+            </ul>
+            <div class="bg-[#fafaf8] text-[#363636] flex  mt-12  flex-col text-center items-center  py-6  px-8  xl:px-6">
+              <h1 class=" heading text-5xl md:text-[95px] lg:text-[120px]  xl:text-[220px] leading-none">MY  LITTLE</h1>
+              <h1 class="heading ml-0 xl:ml-96  mt-2 text-4xl md:text-[55px] lg:text-[80px] xl:text-[150px] leading-none">BIT ABOUT*</h1>
+            </div>
+            
+        </nav>
+
+        <div class="bg-[#fafaf8] h-full w-full flex flex-col lg:flex-row  gap-10 xl:gap-20  py-6 z-20 px-8 sm:px-24 xl:px-32  ">
+            <div class="bg-gray-200 h-[400px] lg:h-[600px] lg:w-5/12 bg-[url('./assets/about-hero.jpg')] bg-cover bg-no-repeat"></div>
+            <div class="lg:w-8/12 h-full">
+                <h2 class="text-[24px] md:text-3xl  xl:text-5xl font-extralight text-[#363636] leading-normal lg:leading-relaxed xl:leading-normal tracking-wide  w-full md:pr-4">
+                    I help people and companies achieve their <span class="font-semibold">goals by developing </span> & building <span class="font-semibold">users friendly </span> websites and <span class="font-semibold">interactive </span> experiences.
+                </h2>
+                <p class="leading-normal tracking-wide text-sm md:text-lg mt-6 mb-2 text-[#757b8a] ">I am a young front-end developer passionate about crafting seamless, interactive web experiences. My journey began during the lockdown in 2020, when I started exploring the world of web development and quickly became captivated by its endless possibilities.</p>
+                <p class="leading-normal tracking-wide text-sm md:text-lg mt-6  mb-2 text-[#757b8a] ">I specialize in frontend development, leveraging skills in HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, React JS, Redux, and GSAP to create engaging user experiences. My toolkit includes Git, GitHub, Postman, and VS Code, ensuring efficient and effective project execution. On the backend, I utilize Express JS, Node JS, and APIs to build robust applications, with MongoDB as my database of choice. Let’s work together to turn your ideas into reality.</p>
+            </div>
+        </div>
+
+        <div class="bg-[#fafaf8] h-full w-full flex justify-center items-center z-20 px-0 lg:px-0 xl:px-32 py-[90px]  ">
+            <div class="bg-white h-full w-full py-14  ">
+                <p class="text-lg md:text-xl text-gray-600 py-8 pb-12 px-16 md:px-20">+10 Essential technologies acquired</p>
+                <div class="w-full flex flex-wrap justify-center items-center xl:px-12">
+                    <div class="h-44 w-1/2 md:h-44 md:w-64  border-b border-gray-300 border-r flex justify-center items-center  flex-col ">
+                        <i class='bx bxl-html5 text-[70px] ' style='color:#ea5a0c'></i>
+                        <p class="text-black font-medium mt-2">HTML</p>
+                    </div>
+                    <div class="h-44 w-1/2 md:h-44 md:w-64 border-b border-gray-300 border-r flex justify-center items-center  flex-col">
+                        <i class='bx bxl-css3 text-[70px]' style='color:#264de4'></i>
+                        <p class="text-black font-medium mt-2">CSS</p>
+                    </div>
+                    <div class="h-44 w-1/2 md:h-44 md:w-64 border-b border-gray-300  flex justify-center items-center  flex-col">
+                        <i class='bx bxl-javascript text-[70px]' style='color:#f0db4f'></i>
+                        <p class="text-black font-medium mt-2">JavaScript</p>
+                    </div>
+                    <div class="h-44 w-1/2 md:h-44 md:w-64 border-b border-gray-300 border-l md:border-r lg:border-r-0 flex justify-center items-center  flex-col">
+                        <i class='bx bxl-tailwind-css text-[70px]' style='color:#6d28d9'></i>
+                        <p class="text-black font-medium mt-2">Tailwind CSS</p>
+                    </div>
+                    <div class="h-44 w-1/2 md:h-44 md:w-64 border-b border-gray-300 border-r flex justify-center items-center  flex-col">
+                        <i class='bx bxl-bootstrap text-[70px]' style='color:#563d7c'></i>
+                        <p class="text-black font-medium mt-2">Bootstrap</p>
+                    </div>
+                    <div class="h-44 w-1/2 md:h-44 md:w-64 border-b border-gray-300 lg:border-r flex justify-center items-center  flex-col">
+                        <i class='bx bxl-react text-[70px]' style='color:#61dafb'></i>
+                        <p class="text-black font-medium mt-2">React</p>
+                    </div>
+                    <div class="h-44 w-1/2 md:h-44 md:w-64 border-b border-gray-300  flex justify-center items-center  flex-col">
+                        <i class='bx bxl-redux text-[70px]' style='color:#764abc'></i>
+                        <p class="text-black font-medium mt-2">Redux</p>
+                    </div>
+                    <div class="h-44 w-1/2 md:h-44 md:w-64 border-b border-gray-300 border-l md:border-r lg:border-r-0 flex justify-center items-center  flex-col">
+                        <i class='bx bxl-git text-[70px]' style='color:#ea5a0c'></i>
+                        <p class="text-black font-medium mt-2">Git</p>
+                    </div>
+                    <div class="h-44 w-1/2 md:h-44 md:w-64 border-b border-r md:border-r-0 lg:border-b-0 border-gray-300 lg:border-r flex justify-center items-center  flex-col">
+                        <i class='bx bxl-github text-[70px]' style='color:#000000'></i>
+                        <p class="text-black font-medium mt-2">Github</p>
+                    </div>
+                    <div class="h-44 w-1/2 md:h-44 md:w-64  border-gray-300  border-b md:border-b-0 lg:border-r flex justify-center items-center  flex-col">
+                        <i class='bx bxl-mongodb text-[70px]' style='color:#049024'></i>
+                        <p class="text-black font-medium mt-2">Mongodb</p>
+                    </div>
+                    <div class="h-44 w-1/2 md:h-44 md:w-64  border-gray-300 flex justify-center items-center md:border-l lg:border-l-0  flex-col">
+                        <i class='bx bxl-visual-studio  text-[70px]' style='color:#0078d7'></i>
+                        <p class="text-black font-medium mt-2">Vs Code</p>
+                    </div>
+                    <div class="h-44 w-1/2 md:h-44 md:w-64  border-gray-300  border-l flex justify-center items-center  flex-col">
+                        <i class='bx bxl-nodejs text-[70px]' style='color:#3c873a'></i>
+                        <p class="text-black font-medium mt-2">Node.js</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#fafaf8] px-12 h-[230px] md:h-[600px] flex justify-between items-center">
+            <div>
+                <h2 class="text-3xl md:text-6xl md:mb-8 font-extralight leading-normal text-[#363636]">NEXT PAGE</h2>
+                <h2 class=""><a class="heading text-5xl md:text-7xl  xl:text-9xl leading-normal text-[#363636]" href="./contact.html">CONTACT*</a></h2>
+            </div>
+            <div class="lg:flex justify-center items-center gap-0 hidden ">
+                <h2 class="text-xl -rotate-90 font-bold  tracking-normal text-[#363636] absolute  right-64 ">CONNECT WITH ME <span class="text-red-600">*</span></h2>
+                <ul class="pr-28">
+                    <li class="text-5xl leading-normal font-extralight text-left"> <a href="https://www.linkedin.com/in/kamal-jha-b55b78236/" target="_blank">LINKEDIN</a> </li>
+                    <li class="text-5xl leading-normal font-extralight text-left"> <a href="https://twitter.com/userkamaljha" target="_blank">TWITTER</a></li>
+                    <li class="text-5xl leading-normal font-extralight text-left">
+                      <a href="https://github.com/userkamaljha" target="_blank">GITHUB</a>  
+                     </li>
+                </ul>
+            </div>
+        </div>
+
+         <!-- foot bar -->
+       <div class="md:h-32 text-sm sm:tracking-wide h-full w-full bg-[#fafaf8] text-center flex flex-col md:flex-row py-8 md:py-0  justify-between px-12 items-center text-black border-double border-t-4 border-gray-200 text-xl leading-relaxed text-[#fafaf8]">
+        <h3 class="flex gap-4 py-4 md:py-0 "> 
+            <a href="https://www.linkedin.com/in/kamal-jha-b55b78236/" target="_blank" title="linkedin">LN.</a> 
+            <a href="https://github.com/userkamaljha" title="github" target="_blank">GH.</a> 
+            <a href="https://twitter.com/userkamaljha" target="_blank" title="twitter">TW.</a> 
+            <a href="mailto:kamaljha0707@gmail.com" title="Gmail">GM.</a> 
+         </h3>
+        <h3> Developed By Kamal Jha</h3>
+       <h3 class="flex  bg-[#fafaf8] w-full md:w-auto h-full  py-8 "> <span class="mr-1"><img src="./assets/top.png" alt=""></span> <a href="#">Back on Top</a></h3>
+       </div>
+    </div>
+
+</body>
+
+    <!-- gsap cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- scrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- own script file -->
+    <script src="./main.js"></script>
+
+
+</html>
